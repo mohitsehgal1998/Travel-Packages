@@ -244,7 +244,7 @@ public class nymble{
             System.out.println("- Name: " + passenger.getPassengerName() + " (Number: " + passenger.getPassengerNumber() + ")");
         }
 
-        // Printing individual passenger details
+        // Printing individual passenger details.
         System.out.println();
         System.out.println("3. Passenger Details:");
         for (Passenger passenger : travelPackage.getPassengersList()) {
@@ -264,7 +264,7 @@ public class nymble{
             }
         }
         
-        // Printing available activities
+        // Printing available activities.
         System.out.println();
         System.out.println("4. Available Activities:");
         for (Destination destination : travelPackage.getItenary()) {
