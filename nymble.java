@@ -273,7 +273,5 @@ public class nymble{
                 System.out.println("- " + activity.getActivityName() + " at " + destination.getDestinationName() + ": " + spacesAvailable + " spaces available");
             }
         }
-
-        
     }
 }
